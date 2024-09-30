@@ -1,0 +1,16 @@
+{
+	"mqtt": {
+		"broker_url": "127.0.0.1",
+		"port": 1883,
+		"debug": true
+	},
+	"detectors": {
+		"/location/description": {
+			"rtsp_url": "rtsp://127.0.0.1:3000/user=admin&password=&channel=0&stream=1.sdp",
+			"model_name": "yolov5s",
+			"processing_frequency": 1,
+			"debug": false,
+			"identifier": "/location/description"
+		}
+	}
+}
